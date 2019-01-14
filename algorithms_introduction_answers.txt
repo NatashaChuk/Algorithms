@@ -1,0 +1,60 @@
+Exercises
+Provide all code and written answers in a file named algorithms_introduction_answers.txt:
+
+1. Using proper pseudo-code, describe the following primitive algorithms:
+
+	a) Making coffee;
+	b) Washing dishes;
+	c) A choice of your own.
+
+
+	A:  FUNCTION makeCoffee(cups)
+	      PUT filter in coffee maker
+	      IF filter = empty THEN
+		FOR number of cups
+		  ADD number of spoonfuls of ground coffee beans
+		END FOR
+	      ELSE
+		FOR number of cups
+		   POUR hot water over ground coffee beans
+		END FOR
+	      END IF
+	    END FUNCTION
+
+         b) FUNCTION washDishes
+	     ADD warm water to sink
+	     FOR EACH dish
+		IF dish = hasFood THEN
+		   CLEAN dish
+  		ELSE
+		   RINSE dish
+		END IF
+	     END FOR
+	    END FUNCTION
+
+      	c)   FUNCTION crossStreet
+	      IF (pedestrianSign = walk AND carsComing = 0) 
+ 		THEN cross the street
+	      ELSE
+		WAIT
+	      END IF
+	     END FUNCTION 
+
+
+	
+2. As with the knot algorithm, there may be more than one way to solve the problem. 
+   It is essential to try to pick the best algorithm for a situation. Name three companies
+   who created an algorithm that made them successful, e.g., Google's search algorithm.
+   It doesn't need to be a tech example (such as a recipe or manufacturing a product). Google's 
+   algorithm produces more relevant results than other search engines; what about each of your 
+   cases make them stand out?
+
+	A:  1. Amazon - they have solved the issue of making millions of items/tasks accessible to millions of people.
+	    2. Betty Crocker - Have made themselves known worldwide for their reciepes, kitchen utensils, and pretty much anything cooking related
+	    3. Kleenex - masters of branding. Instead of saying give me a tissue or a napkin, it's common to hear one say give me a kleenex. To use the name of a 
+               brand for an item is a true success in branding.		  	
+
+
+3. Hypothesize about what constitutes an efficient algorithm versus an inefficient algorithm.
+
+	A: An efficient algorithm would be an algorithm that is accurate (proven) and easy to use. If not, I would consider it inefficient.
