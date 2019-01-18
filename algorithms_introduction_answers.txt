@@ -51,8 +51,7 @@ Provide all code and written answers in a file named algorithms_introduction_ans
 
 	A:  1. Amazon - they have solved the issue of making millions of items/tasks accessible to millions of people.
 	    2. Betty Crocker - Have made themselves known worldwide for their reciepes, kitchen utensils, and pretty much anything cooking related
-	    3. Kleenex - masters of branding. Instead of saying give me a tissue or a napkin, it's common to hear one say give me a kleenex. To use the name of a 
-               brand for an item is a true success in branding.		  	
+	    3. McDonald’s – top fast food chain in the world. They have contributed their success to location. They have mastered to algorithm for placement of locations to ensure that they are accessible to every neighborhood. 		  	
 
 
 3. Hypothesize about what constitutes an efficient algorithm versus an inefficient algorithm.
