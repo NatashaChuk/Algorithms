@@ -1,0 +1,61 @@
+1. Write pseudocode for bubble sort.
+	A:  
+
+		FUNCTION bubbleSort(collection)
+		   REPEAT
+		     SET swapped to false
+
+		     FOR i = FIRST INDEX of collection to LAST INDEX of collection - 1
+		       IF collection[i] > collection[i + 1] THEN
+		         SET temp to collection[i]
+		         SET collection[i] to collection[i + 1]
+		         SET collection[i + 1] to temp
+		         SET swapped to true
+		       END IF
+		     END FOR
+		   UNTIL swapped is FALSE
+
+		   RETURN collection
+		 END FUNCTION
+
+
+2. Write pseudocode for quicksort.
+	A: 
+		FUNCTION quickSort(collection) 
+		  IF collection length <= 1 THEN
+		     RETURN collection
+		  END IF
+
+		  SET left, right, and sortedCollection to empty arrays
+		  SET pivot to LAST INDEX in collection
+
+		  FOR every index in collection
+		     IF collection[i] <= pivot THEN
+			APPEND collection[i] to left
+		     ELSE collection[i] >= pivot THEN
+			APPEND collection[i] to right
+		     END IF
+		  END FOR
+
+		  CALL quicksort with left
+		  CALL quicksort with right
+		  RETURN sortedCollection merging left, pivot, and right	
+		END FUNCTION
+
+
+
+3. We talked about time complexity in a previous checkpoint, and how to get an idea of the efficiency of an algorithm. 
+   After looking at the pseudocode for the above sorting methods, identify why merge sort and quick sort are much more efficient than the others. 
+   Walking through each algorithm with a few sample collections may help.
+	A: 	Merge sort and quick sort are much more efficient because they use recursion instead of having to loop and iterate through the array multiple times as others.
+
+		Merge Sort: O(n log n)
+		Quick Sort: O(n log n)
+		Insert Sort: O(n^2)
+		Bubble Sort: O(n^2)
+		Insertion Sort: O(n^2) 
+
+4. All of the sorts addressed in this checkpoint are known as comparison sorts. Research bucket sort and explain how it works. 
+   What is the ideal input for bucket sort?
+	A: 	Bucket sort distributes the elements of an array into a number of buckets. Each bucket then gets sorted individually by using recursion or a different sorting algorithm.
+		Ideal use would be when working with a range of numbers such as grouping a range of people into different age groups.
